@@ -1,8 +1,8 @@
 //
-//  AppDelegate.swift
-//  CoreMl-ResNet-Sample
+//  ViewController.swift
+//  CoreML-samples
 //
-//  Created by yakizuki on 2017/06/13.
+//  Created by Yuta Akizuki on 2017/06/23.
 //  Copyright © 2017年 ytakzk. All rights reserved.
 //
 

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CoreMl-ResNet-Sample.xcodeproj">
+      location = "self:CoreML-samples.xcodeproj">
    </FileRef>
 </Workspace>
