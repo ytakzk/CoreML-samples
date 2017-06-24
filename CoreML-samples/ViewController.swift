@@ -54,8 +54,7 @@ class ViewController: UIViewController {
             
         case 0:
             
-            guard let image = imageView.image,
-                let ref = image.buffer() else {
+            guard let image = imageView.image, let ref = image.buffer else {
                     
                     return
             }
@@ -66,7 +65,7 @@ class ViewController: UIViewController {
             
             guard let image = imageView.image,
                 let resized = image.resize(size: CGSize(width: 28, height: 28)),
-                let ref = resized.grayscaledBuffer() else {
+                let ref = resized.grayscaledBuffer else {
                     
                 return
             }

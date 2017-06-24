@@ -10,7 +10,7 @@ import UIKit
 
 extension UIImage {
     
-    func buffer() -> CVPixelBuffer? {
+    var buffer: CVPixelBuffer? {
         
         let attrs = [kCVPixelBufferCGImageCompatibilityKey: kCFBooleanTrue, kCVPixelBufferCGBitmapContextCompatibilityKey: kCFBooleanTrue] as CFDictionary
         
@@ -38,7 +38,7 @@ extension UIImage {
         return pixelBuffer
     }
     
-    func grayscaledBuffer() -> CVPixelBuffer? {
+    var grayscaledBuffer: CVPixelBuffer? {
         
         let attrs = [kCVPixelBufferCGImageCompatibilityKey: kCFBooleanTrue, kCVPixelBufferCGBitmapContextCompatibilityKey: kCFBooleanTrue] as CFDictionary
         
